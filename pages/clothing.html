@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clothing | ShopEase</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="container nav-container">
+
+        <a href="../index.html" class="logo">
+            Shop<span>Ease</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#categories">Categories</a>
+            <a href="../index.html#products">Products</a>
+            <a href="../index.html#about">About</a>
+            <a href="../index.html#contact">Contact</a>
+        </nav>
+
+        <button class="cart-button" id="cartButton" type="button">
+            🛒
+            <span id="cart-count">0</span>
+        </button>
+
+    </div>
+</header>
+
+
+<!-- Category Hero -->
+<section class="category-hero">
+
+    <div class="container">
+
+        <span>SHOP IN STYLE</span>
+
+        <h1>Clothing</h1>
+
+        <p>
+            Discover stylish clothing for every season
+            and every occasion.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- Products -->
+<section class="products section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>OUR COLLECTION</span>
+
+            <h2>Clothing Collection</h2>
+
+            <p>Choose your perfect style.</p>
+
+        </div>
+
+
+        <div class="products-grid">
+
+
+            <!-- Product 1 -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="../images/clothing1.jpg"
+                        alt="Summer Dress"
+                    >
+
+                    <span class="hero-badge">New</span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Summer Dress</h3>
+
+                    <p class="description">
+                        Beautiful and comfortable dress perfect for summer days.
+                    </p>
+
+                    <div class="price">
+                        Rs. 2,999
+                    </div>
+
+                    <button
+                        class="cart-btn"
+                        type="button"
+                        data-name="Summer Dress"
+                        data-price="2999"
+                        data-image="../images/clothing1.jpg"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 2 -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="../images/clothing2.jpg"
+                        alt="Winter Hoodie"
+                    >
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Winter Hoodie</h3>
+
+                    <p class="description">
+                        Warm and comfortable hoodie for a stylish winter look.
+                    </p>
+
+                    <div class="price">
+                        Rs. 2,799
+                    </div>
+
+                    <button
+                        class="cart-btn"
+                        type="button"
+                        data-name="Winter Hoodie"
+                        data-price="2799"
+                        data-image="../images/clothing2.jpg"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 3 -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="../images/clothing3.jpg"
+                        alt="Premium T-Shirt"
+                    >
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Premium T-Shirt</h3>
+
+                    <p class="description">
+                        Soft premium T-shirt with a comfortable everyday fit.
+                    </p>
+
+                    <div class="price">
+                        Rs. 1,799
+                    </div>
+
+                    <button
+                        class="cart-btn"
+                        type="button"
+                        data-name="Premium T-Shirt"
+                        data-price="1799"
+                        data-image="../images/clothing3.jpg"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 4 -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="../images/clothing4.jpg"
+                        alt="Denim Jacket"
+                    >
+
+                    <span class="sale-badge">
+                        Trending
+                    </span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Denim Jacket</h3>
+
+                    <p class="description">
+                        Trendy denim jacket designed for a modern casual look.
+                    </p>
+
+                    <div class="price">
+                        Rs. 4,999
+                    </div>
+
+                    <button
+                        class="cart-btn"
+                        type="button"
+                        data-name="Denim Jacket"
+                        data-price="4999"
+                        data-image="../images/clothing4.jpg"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 5 -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="../images/clothing5.jpg"
+                        alt="Floral Maxi Dress"
+                    >
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Floral Maxi Dress</h3>
+
+                    <p class="description">
+                        Elegant floral maxi dress for a graceful everyday look.
+                    </p>
+
+                    <div class="price">
+                        Rs. 3,299
+                    </div>
+
+                    <button
+                        class="cart-btn"
+                        type="button"
+                        data-name="Floral Maxi Dress"
+                        data-price="3299"
+                        data-image="../images/clothing5.jpg"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 6 -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="../images/clothing6.jpg"
+                        alt="Cropped Blazer"
+                    >
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Cropped Blazer</h3>
+
+                    <p class="description">
+                        Stylish cropped blazer for a smart and polished outfit.
+                    </p>
+
+                    <div class="price">
+                        Rs. 3,999
+                    </div>
+
+                    <button
+                        class="cart-btn"
+                        type="button"
+                        data-name="Cropped Blazer"
+                        data-price="3999"
+                        data-image="../images/clothing6.jpg"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 7 -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="../images/clothing7.jpg"
+                        alt="Pleated Skirt"
+                    >
+
+                    <span class="sale-badge">
+                        -10%
+                    </span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Pleated Skirt</h3>
+
+                    <p class="description">
+                        Elegant pleated skirt that adds a stylish touch to any outfit.
+                    </p>
+
+                    <div class="price">
+                        Rs. 2,499
+                    </div>
+
+                    <button
+                        class="cart-btn"
+                        type="button"
+                        data-name="Pleated Skirt"
+                        data-price="2499"
+                        data-image="../images/clothing7.jpg"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 8 -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="../images/clothing8.jpg"
+                        alt="Knit Sweater"
+                    >
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Knit Sweater</h3>
+
+                    <p class="description">
+                        Cozy knit sweater with a soft and comfortable finish.
+                    </p>
+
+                    <div class="price">
+                        Rs. 2,999
+                    </div>
+
+                    <button
+                        class="cart-btn"
+                        type="button"
+                        data-name="Knit Sweater"
+                        data-price="2999"
+                        data-image="../images/clothing8.jpg"
+                    >
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+<footer id="contact">
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <h3>
+                Shop<span>Ease</span>
+            </h3>
+
+            <p>
+                Your trusted online shopping destination.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>Quick Links</h4>
+
+            <a href="../index.html">Home</a>
+
+            <a href="../index.html#categories">
+                Categories
+            </a>
+
+            <a href="../index.html#products">
+                Products
+            </a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>Categories</h4>
+
+            <a href="handbags.html">
+                Handbags
+            </a>
+
+            <a href="shoes.html">
+                Shoes
+            </a>
+
+            <a href="clothing.html">
+                Clothing
+            </a>
+
+        </div>
+
+
+        <div class="footer-contact">
+
+            <h4>Contact</h4>
+
+            <p>📧 support@shopease.com</p>
+
+            <p>📞 +92 300 1234567</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 ShopEase. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="../script.js"></script>
+
+</body>
+</html>

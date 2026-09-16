@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShopEase | Discover Your Everyday Style</title>
+    <meta name="description" content="ShopEase is a modern fashion and lifestyle store for clothing, shoes, handbags, jewellery, makeup and accessories.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= ANNOUNCEMENT ================= -->
+<div class="announcement-bar">
+    <div class="announcement-track">
+        <span>NEW SEASON • FRESH STYLES • EVERYDAY ESSENTIALS</span>
+        <span>FREE DELIVERY ON ORDERS OVER RS. 5,000</span>
+        <span>NEW SEASON • FRESH STYLES • EVERYDAY ESSENTIALS</span>
+    </div>
+</div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+    <div class="nav-container">
+
+        <a href="#home" class="logo" aria-label="ShopEase Home">
+            Shop<span>Ease</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#offers">Offers</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="nav-search-btn" id="searchToggle" type="button" aria-label="Open search">⌕</button>
+
+            <button class="cart-button" id="cartButton" type="button" aria-label="Open shopping bag">
+                <span class="bag-icon">♡</span>
+                <span class="bag-text">Bag</span>
+                <span class="cart-count" id="cart-count">0</span>
+            </button>
+
+            <button class="menu-button" id="menuButton" type="button" aria-label="Open menu">☰</button>
+        </div>
+
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Products</a>
+        <a href="#offers">Offers</a>
+        <a href="#about">About</a>
+    </div>
+</header>
+
+<!-- ================= SEARCH OVERLAY ================= -->
+<div class="search-panel" id="searchPanel">
+    <div class="search-panel-inner">
+        <span>Search</span>
+        <input id="globalSearch" type="text" placeholder="Try shoes, handbag, makeup..." autocomplete="off">
+        <button id="closeSearch" type="button" aria-label="Close search">×</button>
+    </div>
+</div>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+
+    <div class="hero-bg-shape shape-one"></div>
+    <div class="hero-bg-shape shape-two"></div>
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                <span></span>
+                Curated for your everyday
+            </div>
+
+            <h1>
+                Wear your
+                <em>own story.</em>
+            </h1>
+
+            <p class="hero-description">
+                Discover pieces that feel beautiful, effortless and completely you.
+                Fashion, beauty and little luxuries — all in one place.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#products" class="primary-button">
+                    Shop the collection
+                    <span>→</span>
+                </a>
+
+                <a href="#categories" class="text-button">
+                    Explore categories
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <div class="hero-note">
+                <div class="mini-icons">
+                    <span>✦</span>
+                    <span>♡</span>
+                    <span>✿</span>
+                </div>
+                <p>
+                    Carefully selected
+                    <strong>for every mood.</strong>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="hero-visual">
+
+            <div class="hero-main-image">
+                <img src="images/clothing1.jpg" alt="Featured clothing collection" loading="eager">
+                <div class="hero-image-overlay"></div>
+
+                <div class="hero-image-label">
+                    <span>01</span>
+                    New season
+                </div>
+            </div>
+
+            <div class="hero-small-image">
+                <img src="images/handbag1.jpg" alt="Featured handbag" loading="lazy">
+            </div>
+
+            <div class="floating-card">
+                <span class="floating-label">Editor's pick</span>
+                <strong>Everyday<br>Essentials</strong>
+                <small>Discover →</small>
+            </div>
+
+            <div class="floating-circle">♡</div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FEATURE STRIP ================= -->
+<section class="feature-strip">
+
+    <div class="feature-item">
+        <span class="feature-number">01</span>
+        <div>
+            <h3>Curated style</h3>
+            <p>Pieces selected with care</p>
+        </div>
+    </div>
+
+    <div class="feature-item">
+        <span class="feature-number">02</span>
+        <div>
+            <h3>Easy shopping</h3>
+            <p>Simple and effortless browsing</p>
+        </div>
+    </div>
+
+    <div class="feature-item">
+        <span class="feature-number">03</span>
+        <div>
+            <h3>Made for you</h3>
+            <p>Style for every occasion</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+<section class="categories-section section" id="categories">
+
+    <div class="section-heading">
+        <div>
+            <span class="section-label">Browse your way</span>
+            <h2>
+                Find your
+                <em>favorites.</em>
+            </h2>
+        </div>
+
+        <p>
+            From everyday essentials to statement pieces,
+            explore collections created to complement your style.
+        </p>
+    </div>
+
+    <div class="category-grid">
+
+        <a href="pages/handbags.html" class="category-card category-large">
+            <div class="category-image">
+                <img src="images/handbag1.jpg" alt="Handbags" loading="lazy">
+                <span class="image-number">01</span>
+            </div>
+            <div class="category-info">
+                <span>01</span>
+                <div>
+                    <h3>Handbags</h3>
+                    <p>Everyday elegance</p>
+                </div>
+                <b>↗</b>
+            </div>
+        </a>
+
+        <a href="pages/shoes.html" class="category-card">
+            <div class="category-image">
+                <img src="images/shoe1.jpg" alt="Shoes" loading="lazy">
+                <span class="image-number">02</span>
+            </div>
+            <div class="category-info">
+                <span>02</span>
+                <div>
+                    <h3>Shoes</h3>
+                    <p>Step into style</p>
+                </div>
+                <b>↗</b>
+            </div>
+        </a>
+
+        <a href="pages/clothing.html" class="category-card">
+            <div class="category-image">
+                <img src="images/clothing1.jpg" alt="Clothing" loading="lazy">
+                <span class="image-number">03</span>
+            </div>
+            <div class="category-info">
+                <span>03</span>
+                <div>
+                    <h3>Clothing</h3>
+                    <p>Wear your mood</p>
+                </div>
+                <b>↗</b>
+            </div>
+        </a>
+
+        <a href="pages/makeup.html" class="category-card">
+            <div class="category-image">
+                <img src="images/makeup1.jpg" alt="Makeup" loading="lazy">
+                <span class="image-number">04</span>
+            </div>
+            <div class="category-info">
+                <span>04</span>
+                <div>
+                    <h3>Makeup</h3>
+                    <p>Beauty essentials</p>
+                </div>
+                <b>↗</b>
+            </div>
+        </a>
+
+        <a href="pages/jewellery.html" class="category-card">
+            <div class="category-image">
+                <img src="images/jewellery1.jpg" alt="Jewellery" loading="lazy">
+                <span class="image-number">05</span>
+            </div>
+            <div class="category-info">
+                <span>05</span>
+                <div>
+                    <h3>Jewellery</h3>
+                    <p>Little luxuries</p>
+                </div>
+                <b>↗</b>
+            </div>
+        </a>
+
+        <a href="pages/accessories.html" class="category-card">
+            <div class="category-image">
+                <img src="images/accessory1.jpg" alt="Accessories" loading="lazy">
+                <span class="image-number">06</span>
+            </div>
+            <div class="category-info">
+                <span>06</span>
+                <div>
+                    <h3>Accessories</h3>
+                    <p>Complete the look</p>
+                </div>
+                <b>↗</b>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+<section class="products-section section" id="products">
+
+    <div class="products-top">
+        <div>
+            <span class="section-label">The edit</span>
+            <h2>
+                New
+                <em>arrivals.</em>
+            </h2>
+        </div>
+
+        <p>
+            Fresh finds and timeless favorites,
+            selected for your everyday wardrobe.
+        </p>
+    </div>
+
+    <div class="shop-controls">
+
+        <div class="search-box">
+            <span>⌕</span>
+            <input id="searchInput" type="text" placeholder="Search products..." autocomplete="off">
+            <button id="searchBtn" type="button">Search</button>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all" type="button">All</button>
+            <button class="filter-btn" data-filter="handbags" type="button">Handbags</button>
+            <button class="filter-btn" data-filter="shoes" type="button">Shoes</button>
+            <button class="filter-btn" data-filter="clothing" type="button">Clothing</button>
+            <button class="filter-btn" data-filter="makeup" type="button">Makeup</button>
+            <button class="filter-btn" data-filter="jewellery" type="button">Jewellery</button>
+            <button class="filter-btn" data-filter="accessories" type="button">Accessories</button>
+        </div>
+
+    </div>
+
+    <div class="product-grid">
+
+        <article class="product-card" data-category="handbags" data-name="Luxury Handbag">
+            <div class="product-image">
+                <img src="images/handbag1.jpg" alt="Luxury Handbag" loading="lazy">
+                <span class="product-badge">Bestseller</span>
+                <button class="quick-view" type="button" aria-label="Add Luxury Handbag to favorites">♡</button>
+            </div>
+            <div class="product-info">
+                <div class="product-category">Handbags</div>
+                <h3>Luxury Handbag</h3>
+                <div class="product-bottom">
+                    <span class="product-price">Rs. 4,999</span>
+                    <button class="cart-btn" type="button" data-name="Luxury Handbag" data-price="4999" data-image="images/handbag1.jpg">Add to bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card" data-category="shoes" data-name="Sports Shoes">
+            <div class="product-image">
+                <img src="images/shoe2.jpg" alt="Sports Shoes" loading="lazy">
+                <span class="product-badge">Popular</span>
+                <button class="quick-view" type="button" aria-label="Add Sports Shoes to favorites">♡</button>
+            </div>
+            <div class="product-info">
+                <div class="product-category">Shoes</div>
+                <h3>Sports Shoes</h3>
+                <div class="product-bottom">
+                    <span class="product-price">Rs. 4,299</span>
+                    <button class="cart-btn" type="button" data-name="Sports Shoes" data-price="4299" data-image="images/shoe2.jpg">Add to bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card" data-category="clothing" data-name="Summer Dress">
+            <div class="product-image">
+                <img src="images/clothing1.jpg" alt="Summer Dress" loading="lazy">
+                <span class="product-badge">New</span>
+                <button class="quick-view" type="button" aria-label="Add Summer Dress to favorites">♡</button>
+            </div>
+            <div class="product-info">
+                <div class="product-category">Clothing</div>
+                <h3>Summer Dress</h3>
+                <div class="product-bottom">
+                    <span class="product-price">Rs. 2,999</span>
+                    <button class="cart-btn" type="button" data-name="Summer Dress" data-price="2999" data-image="images/clothing1.jpg">Add to bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card" data-category="makeup" data-name="Makeup Kit">
+            <div class="product-image">
+                <img src="images/makeup1.jpg" alt="Makeup Kit" loading="lazy">
+                <span class="product-badge">Featured</span>
+                <button class="quick-view" type="button" aria-label="Add Makeup Kit to favorites">♡</button>
+            </div>
+            <div class="product-info">
+                <div class="product-category">Makeup</div>
+                <h3>Makeup Kit</h3>
+                <div class="product-bottom">
+                    <span class="product-price">Rs. 2,199</span>
+                    <button class="cart-btn" type="button" data-name="Makeup Kit" data-price="2199" data-image="images/makeup1.jpg">Add to bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card" data-category="handbags" data-name="Leather Bag">
+            <div class="product-image">
+                <img src="images/handbag2.jpg" alt="Leather Bag" loading="lazy">
+                <button class="quick-view" type="button" aria-label="Add Leather Bag to favorites">♡</button>
+            </div>
+            <div class="product-info">
+                <div class="product-category">Handbags</div>
+                <h3>Leather Bag</h3>
+                <div class="product-bottom">
+                    <span class="product-price">Rs. 3,999</span>
+                    <button class="cart-btn" type="button" data-name="Leather Bag" data-price="3999" data-image="images/handbag2.jpg">Add to bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card" data-category="shoes" data-name="Casual Sneakers">
+            <div class="product-image">
+                <img src="images/shoe3.jpg" alt="Casual Sneakers" loading="lazy">
+                <button class="quick-view" type="button" aria-label="Add Casual Sneakers to favorites">♡</button>
+            </div>
+            <div class="product-info">
+                <div class="product-category">Shoes</div>
+                <h3>Casual Sneakers</h3>
+                <div class="product-bottom">
+                    <span class="product-price">Rs. 3,799</span>
+                    <button class="cart-btn" type="button" data-name="Casual Sneakers" data-price="3799" data-image="images/shoe3.jpg">Add to bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card" data-category="clothing" data-name="Premium T-Shirt">
+            <div class="product-image">
+                <img src="images/clothing3.jpg" alt="Premium T-Shirt" loading="lazy">
+                <button class="quick-view" type="button" aria-label="Add Premium T-Shirt to favorites">♡</button>
+            </div>
+            <div class="product-info">
+                <div class="product-category">Clothing</div>
+                <h3>Premium T-Shirt</h3>
+                <div class="product-bottom">
+                    <span class="product-price">Rs. 1,799</span>
+                    <button class="cart-btn" type="button" data-name="Premium T-Shirt" data-price="1799" data-image="images/clothing3.jpg">Add to bag</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card" data-category="makeup" data-name="Lipstick Set">
+            <div class="product-image">
+                <img src="images/makeup2.jpg" alt="Lipstick Set" loading="lazy">
+                <span class="product-badge">-10%</span>
+                <button class="quick-view" type="button" aria-label="Add Lipstick Set to favorites">♡</button>
+            </div>
+            <div class="product-info">
+                <div class="product-category">Makeup</div>
+                <h3>Lipstick Set</h3>
+                <div class="product-bottom">
+                    <span class="product-price">Rs. 1,299</span>
+                    <button class="cart-btn" type="button" data-name="Lipstick Set" data-price="1299" data-image="images/makeup2.jpg">Add to bag</button>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- ================= OFFER ================= -->
+<section class="offer-section section" id="offers">
+
+    <div class="offer-content">
+        <span class="section-label">A little treat</span>
+
+        <h2>
+            Your next favorite
+            <em>is waiting.</em>
+        </h2>
+
+        <p>
+            Enjoy special prices on selected pieces for a limited time.
+            Find something beautiful before the collection changes.
+        </p>
+
+        <a href="#products" class="primary-button">
+            Shop the offer
+            <span>→</span>
+        </a>
+
+        <div class="countdown">
+            <div>
+                <strong id="days">00</strong>
+                <span>Days</span>
+            </div>
+            <i>:</i>
+            <div>
+                <strong id="hours">00</strong>
+                <span>Hours</span>
+            </div>
+            <i>:</i>
+            <div>
+                <strong id="minutes">00</strong>
+                <span>Minutes</span>
+            </div>
+            <i>:</i>
+            <div>
+                <strong id="seconds">00</strong>
+                <span>Seconds</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="offer-image">
+        <img src="images/handbag5.jpg" alt="Special collection" loading="lazy"
+             onerror="this.src='images/handbag1.jpg'">
+        <div class="offer-sticker">Special<br>edit</div>
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about-section section" id="about">
+
+    <div class="about-image">
+        <img src="images/clothing2.jpg" alt="ShopEase fashion collection" loading="lazy">
+        <div class="about-year">
+            <strong>Since</strong>
+            <span>2026</span>
+        </div>
+    </div>
+
+    <div class="about-content">
+        <span class="section-label">Our story</span>
+
+        <h2>
+            Less noise.
+            <em>More you.</em>
+        </h2>
+
+        <p>
+            ShopEase was created around a simple idea:
+            shopping should feel inspiring, easy and personal.
+        </p>
+
+        <p>
+            We bring together fashion, beauty, jewellery and
+            everyday accessories so you can discover pieces
+            that naturally fit your style.
+        </p>
+
+        <div class="about-signature">
+            <span>♡</span>
+            <div>
+                <strong>Shop thoughtfully.</strong>
+                <small>Wear confidently.</small>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+<section class="newsletter-section section" id="newsletter">
+
+    <div class="newsletter-inner">
+
+        <div>
+            <span class="section-label">Stay in the loop</span>
+            <h2>
+                A little inspiration,
+                <em>in your inbox.</em>
+            </h2>
+            <p>Get new arrivals, special offers and style updates.</p>
+        </div>
+
+        <form id="newsletterForm" class="newsletter-form">
+
+            <div class="newsletter-input">
+                <input id="newsletterEmail" type="email" placeholder="Your email address" required>
+                <button type="submit">Join →</button>
+            </div>
+
+            <small id="newsletterMessage"></small>
+
+        </form>
+
+    </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer id="contact">
+
+    <div class="footer-grid">
+
+        <div class="footer-brand">
+            <a href="#home" class="footer-logo">Shop<span>Ease</span></a>
+            <p>
+                A little place for things that make
+                everyday life feel more like you.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Explore</h4>
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#offers">Offers</a>
+        </div>
+
+        <div class="footer-links">
+            <h4>Categories</h4>
+            <a href="pages/handbags.html">Handbags</a>
+            <a href="pages/shoes.html">Shoes</a>
+            <a href="pages/clothing.html">Clothing</a>
+            <a href="pages/makeup.html">Makeup</a>
+            <a href="pages/jewellery.html">Jewellery</a>
+            <a href="pages/accessories.html">Accessories</a>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>support@shopease.com</p>
+            <p>+92 300 1234567</p>
+            <p>Mon — Sat · 10am — 8pm</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 ShopEase. All Rights Reserved.</p>
+        <span>Made with ♡ for everyday style.</span>
+    </div>
+
+</footer>
+
+<button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
